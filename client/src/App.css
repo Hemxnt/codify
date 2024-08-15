@@ -1,0 +1,46 @@
+.playground-container {
+  display: flex;
+  flex-direction: column;
+  
+} 
+
+.editor-container {
+  display: flex;
+  width: 100%;
+  min-height: 60vh;
+}
+
+.files {
+  padding-right: 20px;
+  background-color: black;
+  color: white;
+}
+
+.editor {
+  width: 100%;
+}
+
+.editor-header {
+  background-color: #2e2e2e;
+  color: white;
+  text-align: center;
+}
+
+.terminal-header {
+  background-color: #292929;
+  color: white;
+}
+
+.terminal-container {
+  background-color: black;
+  color: white;
+}
+
+.file-node {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  line-height: 24px;
+}
