@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    ports:
+      - "9000:9000"
+    volumes:
+      - .:/usr/src/app
+    environment:
+      - INIT_CWD=/usr/src/app
